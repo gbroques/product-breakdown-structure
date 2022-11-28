@@ -46,6 +46,8 @@ Note, #000-000 is reserved to refer to the overall machine or root-level.
 
 In the above scheme, the maximum levels of hierarchy and number of parts is fixed.
 
+An additional assumption is that parts re-used in more than one place would have different part numbers depending on what assemblies they are placed in.
+
 **Source:** [How to Organize Your Project with a PBS System - Marble Machine X #57](https://www.youtube.com/watch?v=zVyEsMiwvVc)
 
 ## Applying to FreeCAD
@@ -59,3 +61,19 @@ FreeCAD [object names](https://wiki.freecadweb.org/Object_name), and hence docum
 Thus, one scheme to convert the #110-001 Front part number and name to a FreeCAD document name could be:
 
     N_110_001_Front
+
+Where "N" stands for "**N**umber".
+
+An alternative scheme could be to assign different meanings to the first letter.
+
+For example:
+
+    A_110_001_Front
+
+Where "A" stands for "**A**ssembly".
+
+Addtional characters such as "F" for "**F**astener" could be used since fasteners may appear in multiple sub-assemblies.
+
+Depending upon the model, the fixed-width of the two parts may be changed.
+
+For example, models with more hierarchy and less parts may choose to use 4 numbers for the assembly levels and 2 numbers for the part number.
