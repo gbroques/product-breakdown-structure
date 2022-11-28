@@ -18,9 +18,9 @@ The first three digits describe the assembly:
 2. 2nd digit - Main assembly
 3. 3rd digit - Sub-assembly
 
-If you have more than 9 top-level, main or sub-assemblies, then you may include characters from the alphabet as numbers. For example, A = 10 (see [Base36](https://en.wikipedia.org/wiki/Base36)).
-
 While the last three digits describe the part.
+
+Depending on how many assemblies and parts exist, then you may include characters from the alphabet. For example, A = 10 (see [Base36](https://en.wikipedia.org/wiki/Base36)).
 
 Assembly numbers always end with triple zeros, and part numbers end with digits.
 
