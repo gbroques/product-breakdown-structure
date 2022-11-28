@@ -42,6 +42,10 @@ Top-level assemblies of the Marble Machine X are:
 4. #400-000 - Instruments
 5. #500-000 - Sides
 
+Note, #000-000 is reserved to refer to the overall machine or root-level.
+
+In the above scheme, the maximum levels of hierarchy and number of parts is fixed.
+
 **Source:** [How to Organize Your Project with a PBS System - Marble Machine X #57](https://www.youtube.com/watch?v=zVyEsMiwvVc)
 
 ## Applying to FreeCAD
